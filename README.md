@@ -6,8 +6,6 @@
 
 - 『X(Twitter)』のトレンドベスト10情報を更新して表示するアプリケーション(更新情報がFirebaseに保存される仕様)
   
-"Firebaseとの連携に苦戦しており、現時点で実装まで至っていないため対応中とさせてください。"
-
 
 ## ③DEMO
 http://gsacademy-ko.sakura.ne.jp/firebaser/GsCodeSample-master/js02/kadai/firebase.html
@@ -19,14 +17,13 @@ http://gsacademy-ko.sakura.ne.jp/firebaser/GsCodeSample-master/js02/kadai/fireba
 - PW: 〇〇〇〇〇〇〇〇
 
 ## ⑤工夫した点・こだわった点
-
-- 
+- 前回localstorageを活用して作った、Xトレンド情報を追加削除して更新できるようにしたサイトをFirebaseのデータベース上でも同様に更新できるようにした。
 
 ## ⑥難しかった点・次回トライしたいこと(又は機能)
-
-- 
+- Firebaseと連携する際に、指定したはずの記述が検知されない事象が発生し苦戦していたが、
+  検知できなかった原因がグローバル変数とローカル変数の関係であることがわかった。
 
 
 ## ⑦質問・疑問・感想、シェアしたいこと等なんでも
-- [感想]
+- [感想]TwitterのAPI連携を試みたが、有償でないとトレンド情報は取得できないため、Pythonなどを活用してGoogleTrendの情報を取得して自動トレンド更新できるようにアップデートさせたい。
 
